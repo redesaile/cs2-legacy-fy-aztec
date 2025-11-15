@@ -25,4 +25,30 @@
 			[ 32768.0, 0.0 ]
 		]
 	}
+
+	fy_aztec_legacy.skeleton.die = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Legacy"
+		vsnd_files_track_01 = "sounds/legacy/player/die1.vsnd"
+		volume = "1.0"
+		distance_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 768.0, 0.0 ]
+		]
+	}
+
+	fy_aztec_legacy.skeleton.breathe = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Legacy"
+		vsnd_files_track_01 = "sounds/legacy/player/breathe1.vsnd"
+		volume = "1.0"
+		distance_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 256.0, 0.0 ]
+		]
+	}
 }
